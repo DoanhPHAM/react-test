@@ -1,0 +1,28 @@
+.App {
+    margin: 24px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.App .App-submit {
+    text-align: center;
+    margin-top: 24px;
+}
+
+@media (min-width: 768px) {
+    .App {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .App {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .App {
+        width: 1170px;
+    }
+}

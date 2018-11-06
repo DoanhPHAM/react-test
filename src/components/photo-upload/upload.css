@@ -1,0 +1,48 @@
+.App-upload {
+    min-height: 160px;
+    width: 100%;
+    border: 2px dashed #C7C7C7;
+    cursor: pointer;
+    box-sizing: border-box;
+
+    /* Center image */
+    display: grid;
+    place-items: center;
+}
+
+.App-upload .image {
+    background: url('./retro.svg') no-repeat 0 0;
+    background-size: contain;
+    height: 48px;
+    width: 48px;
+    margin: 0 auto;
+}
+
+.App-upload .placeholder {
+    font-size: 12px;
+}
+
+.App-upload__previews {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.App-upload__preview-item {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.App-upload__preview-item img {
+    height: 120px;
+    width: auto;
+    cursor: default;
+}
+
+.App-upload__preview-item span {
+    text-decoration: underline;
+    color: blue;
+    font-size: 13px;
+    text-align: center;
+}

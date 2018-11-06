@@ -1,0 +1,18 @@
+.App-description.quill {
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background: #fefcfc;
+}
+
+.App-description.quill .ql-editor {
+    min-height: 18em;
+}
+
+/* Snow Theme */
+.App-description .ql-snow.ql-toolbar {
+    display: block;
+}
+
+.App-description .ql-editor iframe {
+    pointer-events: none;
+}

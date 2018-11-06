@@ -1,0 +1,10 @@
+.App-title {
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.App-title input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 15px;
+}
